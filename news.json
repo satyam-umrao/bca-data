@@ -1,54 +1,64 @@
 {
   "articles": [
     {
-      "title": "AI Startups Attract Record Investments in 2025",
-      "url": "https://techcrunch.com",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995"
+      "id": "1",
+      "title": "AI Startups Raise Record Funding in 2025",
+      "url": "https://techcrunch.com/",
+      "image": "https://picsum.photos/600/400?random=1"
     },
     {
-      "title": "Google Announces Major Android 15 Update",
-      "url": "https://www.theverge.com",
-      "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505"
+      "id": "2",
+      "title": "Google Announces Android 15 Features",
+      "url": "https://theverge.com/",
+      "image": "https://picsum.photos/600/400?random=2"
     },
     {
-      "title": "Microsoft Integrates AI Deeply Into Windows",
-      "url": "https://www.zdnet.com",
-      "image": "https://images.unsplash.com/photo-1581090700227-1e8b0c1df7ab"
+      "id": "3",
+      "title": "Microsoft Expands AI in Windows",
+      "url": "https://zdnet.com/",
+      "image": "https://picsum.photos/600/400?random=3"
     },
     {
-      "title": "Cybersecurity Threats Rising in 2025",
-      "url": "https://www.csoonline.com",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+      "id": "4",
+      "title": "Cybersecurity Threats Increasing Globally",
+      "url": "https://csoonline.com/",
+      "image": "https://picsum.photos/600/400?random=4"
     },
     {
-      "title": "Apple Reveals New M4 Chip Architecture",
-      "url": "https://www.macrumors.com",
-      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      "id": "5",
+      "title": "Apple Reveals New M-Series Chip",
+      "url": "https://macrumors.com/",
+      "image": "https://picsum.photos/600/400?random=5"
     },
     {
-      "title": "India Becomes Global IT Hub",
-      "url": "https://www.livemint.com",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+      "id": "6",
+      "title": "India Emerging as Global IT Hub",
+      "url": "https://livemint.com/",
+      "image": "https://picsum.photos/600/400?random=6"
     },
     {
-      "title": "ChatGPT Enterprise Expands Globally",
-      "url": "https://openai.com",
-      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769"
+      "id": "7",
+      "title": "ChatGPT Enterprise Expands Worldwide",
+      "url": "https://openai.com/",
+      "image": "https://picsum.photos/600/400?random=7"
     },
     {
-      "title": "Meta Invests in AI Infrastructure",
-      "url": "https://about.meta.com",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+      "id": "8",
+      "title": "Meta Invests Billions in AI Infrastructure",
+      "url": "https://about.meta.com/",
+      "image": "https://picsum.photos/600/400?random=8"
     },
     {
-      "title": "Blockchain Adoption Increases in Banking",
-      "url": "https://coindesk.com",
-      "image": "https://images.unsplash.com/photo-1621504450181-5d356f61d307"
+      "id": "9",
+      "title": "Blockchain Adoption in Banking Grows",
+      "url": "https://coindesk.com/",
+      "image": "https://picsum.photos/600/400?random=9"
     },
     {
+      "id": "10",
       "title": "Quantum Computing Breakthrough Achieved",
-      "url": "https://www.scientificamerican.com",
-      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+      "url": "https://scientificamerican.com/",
+      "image": "https://picsum.photos/600/400?random=10"
     }
   ]
 }
