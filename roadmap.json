@@ -3,22 +3,121 @@
     {
       "id": "1",
       "title": "Frontend Development",
-      "image": "https://picsum.photos/300/400?random=201",
+      "image": "https://picsum.photos/300/400?random=301",
       "steps": [
         { "title": "HTML", "description": "Learn structure of web pages." },
-        { "title": "CSS", "description": "Learn styling and layouts." },
-        { "title": "JavaScript", "description": "Add interactivity." },
-        { "title": "React", "description": "Build modern web apps." }
+        { "title": "CSS", "description": "Master styling and layouts." },
+        { "title": "JavaScript", "description": "Add interactivity to websites." },
+        { "title": "React", "description": "Build modern frontend applications." },
+        { "title": "Deploy", "description": "Deploy using Vercel or Netlify." }
       ]
     },
     {
       "id": "2",
       "title": "Backend Development",
-      "image": "https://picsum.photos/300/400?random=202",
+      "image": "https://picsum.photos/300/400?random=302",
       "steps": [
-        { "title": "Node.js", "description": "Server-side JavaScript." },
-        { "title": "Express", "description": "Build APIs." },
-        { "title": "Database", "description": "MongoDB / MySQL." }
+        { "title": "Node.js", "description": "Learn server-side JavaScript." },
+        { "title": "Express", "description": "Build REST APIs." },
+        { "title": "Database", "description": "Learn MongoDB or MySQL." },
+        { "title": "Authentication", "description": "Implement JWT authentication." },
+        { "title": "Deployment", "description": "Deploy backend to cloud." }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Full Stack Developer",
+      "image": "https://picsum.photos/300/400?random=303",
+      "steps": [
+        { "title": "Frontend", "description": "Learn React or Next.js." },
+        { "title": "Backend", "description": "Build APIs with Node." },
+        { "title": "Database", "description": "Integrate MongoDB." },
+        { "title": "Authentication", "description": "Add login system." },
+        { "title": "Deployment", "description": "Deploy full project." }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Data Structures & Algorithms",
+      "image": "https://picsum.photos/300/400?random=304",
+      "steps": [
+        { "title": "Arrays & Strings", "description": "Understand basic data structures." },
+        { "title": "Linked List", "description": "Learn pointer-based structures." },
+        { "title": "Stacks & Queues", "description": "Master LIFO & FIFO." },
+        { "title": "Trees & Graphs", "description": "Learn advanced structures." },
+        { "title": "Practice", "description": "Solve LeetCode problems daily." }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Android Development",
+      "image": "https://picsum.photos/300/400?random=305",
+      "steps": [
+        { "title": "Java/Kotlin", "description": "Learn Android programming language." },
+        { "title": "UI Design", "description": "Create layouts and activities." },
+        { "title": "Firebase", "description": "Integrate backend services." },
+        { "title": "APIs", "description": "Connect REST APIs." },
+        { "title": "Publish", "description": "Upload to Play Store." }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Cybersecurity",
+      "image": "https://picsum.photos/300/400?random=306",
+      "steps": [
+        { "title": "Networking Basics", "description": "Understand TCP/IP & DNS." },
+        { "title": "Linux", "description": "Learn command-line skills." },
+        { "title": "Ethical Hacking", "description": "Use tools like Metasploit." },
+        { "title": "Pen Testing", "description": "Test vulnerabilities." },
+        { "title": "Certifications", "description": "Prepare for CEH." }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Machine Learning",
+      "image": "https://picsum.photos/300/400?random=307",
+      "steps": [
+        { "title": "Python", "description": "Learn Python basics." },
+        { "title": "Statistics", "description": "Understand probability & math." },
+        { "title": "Pandas & Numpy", "description": "Handle data efficiently." },
+        { "title": "ML Algorithms", "description": "Learn regression & classification." },
+        { "title": "Projects", "description": "Build ML mini projects." }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Cloud Computing",
+      "image": "https://picsum.photos/300/400?random=308",
+      "steps": [
+        { "title": "Basics", "description": "Understand cloud concepts." },
+        { "title": "AWS", "description": "Learn EC2, S3, Lambda." },
+        { "title": "Docker", "description": "Containerize applications." },
+        { "title": "Kubernetes", "description": "Orchestrate containers." },
+        { "title": "Deployment", "description": "Deploy scalable apps." }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "UI/UX Design",
+      "image": "https://picsum.photos/300/400?random=309",
+      "steps": [
+        { "title": "Design Basics", "description": "Learn color & typography." },
+        { "title": "Figma", "description": "Create UI designs." },
+        { "title": "Wireframing", "description": "Build prototypes." },
+        { "title": "User Testing", "description": "Improve user experience." },
+        { "title": "Portfolio", "description": "Create design portfolio." }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Competitive Programming",
+      "image": "https://picsum.photos/300/400?random=310",
+      "steps": [
+        { "title": "C++", "description": "Master STL." },
+        { "title": "Basic Problems", "description": "Solve CodeChef easy problems." },
+        { "title": "Advanced DSA", "description": "Learn DP & Graph algorithms." },
+        { "title": "Contests", "description": "Participate regularly." },
+        { "title": "Rating 1600+", "description": "Reach intermediate level." }
       ]
     }
   ]
