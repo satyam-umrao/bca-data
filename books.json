@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "C Programming Guide",
+      "description": "Complete C programming fundamentals.",
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+    },
+    {
+      "id": "2",
+      "title": "Data Structures Notes",
+      "description": "Important data structures concepts.",
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+    },
+    {
+      "id": "3",
+      "title": "Python Handbook",
+      "description": "Learn Python step by step.",
+      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+    }
+  ]
+}
