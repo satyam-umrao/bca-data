@@ -1,16 +1,76 @@
 {
   "semesters": {
     "1": {
-      "subjects": ["C Programming", "Maths"],
+      "subjects": ["C Programming", "Mathematics"],
       "problems": {
         "C Programming": [
           {
-            "title": "Factorial Program",
-            "code": "#include<stdio.h>\nint main(){...}"
+            "title": "Hello World",
+            "code": "#include<stdio.h>\nint main(){\n printf(\"Hello World\");\n return 0;\n}"
           },
           {
-            "title": "Palindrome Number",
-            "code": "#include<stdio.h>\nint main(){...}"
+            "title": "Factorial Program",
+            "code": "#include<stdio.h>\nint main(){\n int n=5,f=1,i;\n for(i=1;i<=n;i++) f*=i;\n printf(\"Factorial = %d\",f);\n return 0;\n}"
+          }
+        ]
+      }
+    },
+
+    "2": {
+      "subjects": ["Data Structures"],
+      "problems": {
+        "Data Structures": [
+          {
+            "title": "Stack Using Array",
+            "code": "// Stack implementation using array\n#include<stdio.h>\n#define MAX 5\nint stack[MAX],top=-1;"
+          }
+        ]
+      }
+    },
+
+    "3": {
+      "subjects": ["OOP in C++"],
+      "problems": {
+        "OOP in C++": [
+          {
+            "title": "Class Example",
+            "code": "#include<iostream>\nusing namespace std;\nclass Test{\npublic:\n void show(){ cout<<\"Hello\"; }\n};"
+          }
+        ]
+      }
+    },
+
+    "4": {
+      "subjects": ["Java"],
+      "problems": {
+        "Java": [
+          {
+            "title": "Simple Java Program",
+            "code": "class Main{\n public static void main(String[] args){\n  System.out.println(\"Hello Java\");\n }\n}"
+          }
+        ]
+      }
+    },
+
+    "5": {
+      "subjects": ["Python"],
+      "problems": {
+        "Python": [
+          {
+            "title": "Fibonacci",
+            "code": "n=10\na,b=0,1\nfor i in range(n):\n print(a)\n a,b=b,a+b"
+          }
+        ]
+      }
+    },
+
+    "6": {
+      "subjects": ["Web Development"],
+      "problems": {
+        "Web Development": [
+          {
+            "title": "Basic HTML Page",
+            "code": "<!DOCTYPE html>\n<html>\n<head><title>Test</title></head>\n<body>Hello World</body>\n</html>"
           }
         ]
       }
