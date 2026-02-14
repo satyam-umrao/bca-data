@@ -1,0 +1,15 @@
+{
+  "languages": [
+    {
+      "name": "C++",
+      "topics": [
+        {
+          "title": "OOP Concepts",
+          "description": "Object-Oriented Programming is a paradigm...",
+          "code": "#include <iostream>\nusing namespace std;\n\nclass Example {\npublic:\n  void sayHello() { cout << \"Hello!\"; }\n};",
+          "output": "Hello!"
+        }
+      ]
+    }
+  ]
+}
