@@ -3,20 +3,27 @@
     {
       "id": "1",
       "title": "C Programming Guide",
-      "description": "Complete C programming fundamentals.",
-      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+      "description": "Complete C fundamentals.",
+      "image": "https://picsum.photos/300/400?random=101"
     },
     {
       "id": "2",
-      "title": "Data Structures Notes",
-      "description": "Important data structures concepts.",
-      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+      "title": "Data Structures",
+      "description": "Important DS concepts.",
+      "image": "https://picsum.photos/300/400?random=102"
     },
     {
       "id": "3",
       "title": "Python Handbook",
       "description": "Learn Python step by step.",
-      "pdf": "https://www.africau.edu/images/default/sample.pdf"
+      "image": "https://picsum.photos/300/400?random=103"
+    },
+    {
+      "id": "4",
+      "title": "Operating System",
+      "description": "OS concepts explained.",
+      "image": "https://picsum.photos/300/400?random=104"
     }
   ]
 }
+s
