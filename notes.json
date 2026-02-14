@@ -1,12 +1,28 @@
 {
   "notes": [
     {
-      "title": "Operating System Notes",
-      "content": "OS manages hardware and software resources."
+      "id": "1",
+      "title": "C Programming Notes",
+      "image": "https://picsum.photos/300/400?random=101",
+      "pdf": "https://example.com/c-notes.pdf"
     },
     {
-      "title": "Database Management",
-      "content": "DBMS stores and manages structured data."
+      "id": "2",
+      "title": "Data Structures Notes",
+      "image": "https://picsum.photos/300/400?random=102",
+      "pdf": "https://example.com/ds-notes.pdf"
+    },
+    {
+      "id": "3",
+      "title": "DBMS Notes",
+      "image": "https://picsum.photos/300/400?random=103",
+      "pdf": "https://example.com/dbms-notes.pdf"
+    },
+    {
+      "id": "4",
+      "title": "Operating System Notes",
+      "image": "https://picsum.photos/300/400?random=104",
+      "pdf": "https://example.com/os-notes.pdf"
     }
   ]
 }
