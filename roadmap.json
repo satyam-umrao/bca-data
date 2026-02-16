@@ -3,6 +3,8 @@
     {
       "id": "1",
       "title": "Frontend Development",
+      "category": "Web Development",
+      "description": "Learn how to build modern and responsive web applications using frontend technologies.",
       "image": "https://picsum.photos/300/400?random=301",
       "steps": [
         { "title": "HTML", "description": "Learn structure of web pages." },
@@ -15,6 +17,8 @@
     {
       "id": "2",
       "title": "Backend Development",
+      "category": "Server Side",
+      "description": "Learn how to build scalable server-side applications and REST APIs.",
       "image": "https://picsum.photos/300/400?random=302",
       "steps": [
         { "title": "Node.js", "description": "Learn server-side JavaScript." },
@@ -27,6 +31,8 @@
     {
       "id": "3",
       "title": "Full Stack Developer",
+      "category": "Web Engineering",
+      "description": "Combine frontend and backend skills to build complete web applications.",
       "image": "https://picsum.photos/300/400?random=303",
       "steps": [
         { "title": "Frontend", "description": "Learn React or Next.js." },
@@ -39,6 +45,8 @@
     {
       "id": "4",
       "title": "Data Structures & Algorithms",
+      "category": "Core Programming",
+      "description": "Master problem-solving and algorithmic thinking for interviews.",
       "image": "https://picsum.photos/300/400?random=304",
       "steps": [
         { "title": "Arrays & Strings", "description": "Understand basic data structures." },
@@ -51,6 +59,8 @@
     {
       "id": "5",
       "title": "Android Development",
+      "category": "Mobile Development",
+      "description": "Build native Android applications and publish them to Play Store.",
       "image": "https://picsum.photos/300/400?random=305",
       "steps": [
         { "title": "Java/Kotlin", "description": "Learn Android programming language." },
@@ -63,6 +73,8 @@
     {
       "id": "6",
       "title": "Cybersecurity",
+      "category": "Security",
+      "description": "Learn how to secure systems and perform ethical hacking.",
       "image": "https://picsum.photos/300/400?random=306",
       "steps": [
         { "title": "Networking Basics", "description": "Understand TCP/IP & DNS." },
@@ -70,54 +82,6 @@
         { "title": "Ethical Hacking", "description": "Use tools like Metasploit." },
         { "title": "Pen Testing", "description": "Test vulnerabilities." },
         { "title": "Certifications", "description": "Prepare for CEH." }
-      ]
-    },
-    {
-      "id": "7",
-      "title": "Machine Learning",
-      "image": "https://picsum.photos/300/400?random=307",
-      "steps": [
-        { "title": "Python", "description": "Learn Python basics." },
-        { "title": "Statistics", "description": "Understand probability & math." },
-        { "title": "Pandas & Numpy", "description": "Handle data efficiently." },
-        { "title": "ML Algorithms", "description": "Learn regression & classification." },
-        { "title": "Projects", "description": "Build ML mini projects." }
-      ]
-    },
-    {
-      "id": "8",
-      "title": "Cloud Computing",
-      "image": "https://picsum.photos/300/400?random=308",
-      "steps": [
-        { "title": "Basics", "description": "Understand cloud concepts." },
-        { "title": "AWS", "description": "Learn EC2, S3, Lambda." },
-        { "title": "Docker", "description": "Containerize applications." },
-        { "title": "Kubernetes", "description": "Orchestrate containers." },
-        { "title": "Deployment", "description": "Deploy scalable apps." }
-      ]
-    },
-    {
-      "id": "9",
-      "title": "UI/UX Design",
-      "image": "https://picsum.photos/300/400?random=309",
-      "steps": [
-        { "title": "Design Basics", "description": "Learn color & typography." },
-        { "title": "Figma", "description": "Create UI designs." },
-        { "title": "Wireframing", "description": "Build prototypes." },
-        { "title": "User Testing", "description": "Improve user experience." },
-        { "title": "Portfolio", "description": "Create design portfolio." }
-      ]
-    },
-    {
-      "id": "10",
-      "title": "Competitive Programming",
-      "image": "https://picsum.photos/300/400?random=310",
-      "steps": [
-        { "title": "C++", "description": "Master STL." },
-        { "title": "Basic Problems", "description": "Solve CodeChef easy problems." },
-        { "title": "Advanced DSA", "description": "Learn DP & Graph algorithms." },
-        { "title": "Contests", "description": "Participate regularly." },
-        { "title": "Rating 1600+", "description": "Reach intermediate level." }
       ]
     }
   ]
