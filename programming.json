@@ -3,34 +3,37 @@
     {
       "id": "1",
       "title": "Foundations",
+      "description": "Build strong programming fundamentals and logical thinking from scratch.",
+      "color": "#E0F2FE",
+      "tags": ["C Programming", "Digital Logic", "Basics"],
       "subjects": ["C Programming", "Digital Electronics"],
       "problems": {
         "C Programming": [
           {
-            "title": "Print Hello World",
+            "title": "Hello World",
             "description": "Write a C program to print Hello World.",
-            "code": "#include<stdio.h>\nint main(){\n printf(\"Hello World\");\n return 0;\n}",
+            "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\");\n  return 0;\n}",
             "output": "Hello World"
           },
           {
-            "title": "Find Factorial",
-            "description": "Calculate factorial of a number using loop.",
-            "code": "#include<stdio.h>\nint main(){\n int n=5,f=1;\n for(int i=1;i<=n;i++) f*=i;\n printf(\"%d\",f);\n return 0;\n}",
-            "output": "120"
+            "title": "Addition of Two Numbers",
+            "description": "Take two numbers as input and print their sum.",
+            "code": "#include <stdio.h>\nint main() {\n  int a=5,b=10;\n  printf(\"%d\",a+b);\n  return 0;\n}",
+            "output": "15"
           }
         ],
         "Digital Electronics": [
           {
-            "title": "AND Gate Truth Table",
-            "description": "Display truth table of AND gate.",
-            "code": "A B | Output\n0 0 | 0\n0 1 | 0\n1 0 | 0\n1 1 | 1",
-            "output": "Truth table displayed"
+            "title": "Binary to Decimal",
+            "description": "Convert binary number to decimal.",
+            "code": "// Logic implementation here",
+            "output": "10"
           },
           {
-            "title": "OR Gate Truth Table",
-            "description": "Display truth table of OR gate.",
-            "code": "A B | Output\n0 0 | 0\n0 1 | 1\n1 0 | 1\n1 1 | 1",
-            "output": "Truth table displayed"
+            "title": "AND Gate Truth Table",
+            "description": "Display truth table of AND gate.",
+            "code": "// AND gate logic",
+            "output": "0 0 0\n0 1 0\n1 0 0\n1 1 1"
           }
         ]
       }
@@ -39,34 +42,37 @@
     {
       "id": "2",
       "title": "Logic Building",
+      "description": "Master data structures and memory-efficient problem solving.",
+      "color": "#FFEDD5",
+      "tags": ["Data Structures", "C++", "Mathematics"],
       "subjects": ["Data Structures", "C++ Programming"],
       "problems": {
         "Data Structures": [
           {
             "title": "Stack Implementation",
             "description": "Implement stack using array.",
-            "code": "// Stack using array in C++\n#include<iostream>\nusing namespace std;\nint stack[5], top=-1;",
+            "code": "// Stack implementation in C++",
             "output": "Stack operations successful"
           },
           {
             "title": "Queue Implementation",
             "description": "Implement queue using array.",
-            "code": "// Queue using array in C++\n#include<iostream>\nusing namespace std;",
+            "code": "// Queue implementation",
             "output": "Queue operations successful"
           }
         ],
         "C++ Programming": [
           {
-            "title": "Class and Object",
-            "description": "Create a class and object example.",
-            "code": "#include<iostream>\nusing namespace std;\nclass Demo{public: void show(){cout<<\"Hello\";}};",
-            "output": "Hello"
+            "title": "Class Example",
+            "description": "Create a simple class with constructor.",
+            "code": "// C++ class example",
+            "output": "Object Created"
           },
           {
-            "title": "Constructor Example",
-            "description": "Demonstrate constructor in C++.",
-            "code": "class Demo{ public: Demo(){ cout<<\"Constructor\"; } };",
-            "output": "Constructor"
+            "title": "Function Overloading",
+            "description": "Demonstrate function overloading.",
+            "code": "// Function overloading example",
+            "output": "Overloaded functions executed"
           }
         ]
       }
@@ -75,32 +81,35 @@
     {
       "id": "3",
       "title": "System Design",
-      "subjects": ["Java Programming", "Database (SQL)"],
+      "description": "Learn OOP concepts and relational database systems.",
+      "color": "#F3E8FF",
+      "tags": ["Java", "OOP", "DBMS"],
+      "subjects": ["Java Programming", "Database Management"],
       "problems": {
         "Java Programming": [
           {
-            "title": "Hello Java",
-            "description": "Basic Java program.",
-            "code": "class Main{\n public static void main(String[] args){\n  System.out.println(\"Hello Java\");\n }\n}",
-            "output": "Hello Java"
-          },
-          {
             "title": "Inheritance Example",
             "description": "Demonstrate inheritance in Java.",
-            "code": "class A{void show(){System.out.println(\"Parent\");}} class B extends A{}",
-            "output": "Parent"
+            "code": "// Java inheritance example",
+            "output": "Child class method"
+          },
+          {
+            "title": "Exception Handling",
+            "description": "Handle divide by zero exception.",
+            "code": "// Try-catch example",
+            "output": "Exception handled"
           }
         ],
-        "Database (SQL)": [
+        "Database Management": [
           {
-            "title": "Create Table",
-            "description": "SQL query to create table.",
+            "title": "Create Table SQL",
+            "description": "Write SQL query to create table.",
             "code": "CREATE TABLE students(id INT, name VARCHAR(50));",
-            "output": "Table created"
+            "output": "Table Created"
           },
           {
             "title": "Select Query",
-            "description": "Retrieve all records.",
+            "description": "Retrieve all records from table.",
             "code": "SELECT * FROM students;",
             "output": "Records displayed"
           }
@@ -110,35 +119,38 @@
 
     {
       "id": "4",
-      "title": "Web & Enterprise",
-      "subjects": ["Python", "Web Technologies"],
+      "title": "Web & Networking",
+      "description": "Build modern web applications and understand computer networks.",
+      "color": "#DCFCE7",
+      "tags": ["Web Tech", "Networking", "Python"],
+      "subjects": ["Web Development", "Computer Networks"],
       "problems": {
-        "Python": [
+        "Web Development": [
           {
-            "title": "Print in Python",
-            "description": "Basic print statement.",
-            "code": "print('Hello Python')",
-            "output": "Hello Python"
-          },
-          {
-            "title": "Check Even or Odd",
-            "description": "Check if number is even or odd.",
-            "code": "n=4\nif n%2==0:\n print('Even')\nelse:\n print('Odd')",
-            "output": "Even"
-          }
-        ],
-        "Web Technologies": [
-          {
-            "title": "Basic HTML Page",
-            "description": "Create simple HTML structure.",
-            "code": "<html><body><h1>Hello</h1></body></html>",
-            "output": "Displays Hello"
+            "title": "HTML Structure",
+            "description": "Create a basic HTML page.",
+            "code": "<html><body>Hello</body></html>",
+            "output": "Page Rendered"
           },
           {
             "title": "CSS Styling",
-            "description": "Apply CSS style.",
-            "code": "h1 { color: blue; }",
-            "output": "Text turns blue"
+            "description": "Style a div with background color.",
+            "code": "div { background-color: blue; }",
+            "output": "Styled Successfully"
+          }
+        ],
+        "Computer Networks": [
+          {
+            "title": "TCP vs UDP",
+            "description": "Explain difference between TCP and UDP.",
+            "code": "// Conceptual explanation",
+            "output": "Comparison done"
+          },
+          {
+            "title": "IP Address Classes",
+            "description": "Display IP address classes.",
+            "code": "// IP class logic",
+            "output": "Class A/B/C"
           }
         ]
       }
@@ -146,35 +158,38 @@
 
     {
       "id": "5",
-      "title": "Specialization",
-      "subjects": ["AI & ML", "Cloud Computing"],
+      "title": "Advanced Computing",
+      "description": "Explore AI, Cloud, and Software Engineering concepts.",
+      "color": "#FEE2E2",
+      "tags": ["AI", "Cloud", "Software Eng"],
+      "subjects": ["Artificial Intelligence", "Cloud Computing"],
       "problems": {
-        "AI & ML": [
+        "Artificial Intelligence": [
           {
-            "title": "Linear Regression Formula",
-            "description": "Implement basic regression formula.",
-            "code": "y = m*x + c",
-            "output": "Predicted value"
+            "title": "Linear Regression",
+            "description": "Implement simple linear regression.",
+            "code": "# Python ML example",
+            "output": "Model Trained"
           },
           {
-            "title": "Decision Tree Concept",
-            "description": "Explain decision tree.",
-            "code": "// Decision Tree splits data based on features",
-            "output": "Tree generated"
+            "title": "Neural Network Intro",
+            "description": "Explain neural network basics.",
+            "code": "// AI theory",
+            "output": "Neural network explained"
           }
         ],
         "Cloud Computing": [
           {
-            "title": "Deploy App on AWS",
-            "description": "Steps to deploy app.",
-            "code": "aws ec2 run-instances ...",
-            "output": "Instance launched"
+            "title": "Deploy App",
+            "description": "Deploy app to cloud platform.",
+            "code": "// Deployment steps",
+            "output": "App Deployed"
           },
           {
             "title": "Docker Container",
-            "description": "Run container.",
-            "code": "docker run -p 80:80 nginx",
-            "output": "Container running"
+            "description": "Create Docker container.",
+            "code": "docker build -t app .",
+            "output": "Container Created"
           }
         ]
       }
@@ -182,35 +197,38 @@
 
     {
       "id": "6",
-      "title": "Final Frontier",
+      "title": "Final Project",
+      "description": "Build industry-ready projects and deploy scalable systems.",
+      "color": "#E0E7FF",
+      "tags": ["Full Stack", "Mobile App", "Major Project"],
       "subjects": ["Full Stack Development", "Mobile App Development"],
       "problems": {
         "Full Stack Development": [
           {
-            "title": "REST API Setup",
-            "description": "Create simple Express API.",
-            "code": "const express = require('express'); const app = express();",
-            "output": "Server running"
+            "title": "MERN Setup",
+            "description": "Setup MERN stack project.",
+            "code": "// MERN initialization",
+            "output": "Project Created"
           },
           {
-            "title": "Connect Frontend to Backend",
-            "description": "Fetch API example.",
-            "code": "fetch('/api/data').then(res=>res.json());",
-            "output": "Data received"
+            "title": "Authentication System",
+            "description": "Implement login & signup.",
+            "code": "// JWT Auth code",
+            "output": "Authentication Working"
           }
         ],
         "Mobile App Development": [
           {
-            "title": "React Native Button",
-            "description": "Create simple button.",
-            "code": "<Button title='Click Me' />",
-            "output": "Button rendered"
+            "title": "React Native Setup",
+            "description": "Create first React Native app.",
+            "code": "npx expo init app",
+            "output": "App Running"
           },
           {
-            "title": "Navigation Example",
-            "description": "Navigate between screens.",
-            "code": "router.push('/home');",
-            "output": "Screen navigated"
+            "title": "API Integration",
+            "description": "Fetch data from REST API.",
+            "code": "fetch('https://api.example.com')",
+            "output": "Data Loaded"
           }
         ]
       }
