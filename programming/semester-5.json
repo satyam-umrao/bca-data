@@ -1,0 +1,41 @@
+{
+  "id": "5",
+  "title": "Semester 05 - Specialization",
+  "description": "Advanced computing and intelligent systems.",
+  "subjects": [
+    {
+      "name": "Artificial Intelligence",
+      "problems": [
+        {
+          "title": "Simple Neural Network",
+          "description": "Basic NN structure.",
+          "code": "Input -> Hidden -> Output",
+          "output": "Model created"
+        },
+        {
+          "title": "Search Algorithm",
+          "description": "Implement BFS.",
+          "code": "Queue based traversal",
+          "output": "Nodes visited"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "problems": [
+        {
+          "title": "Deploy App",
+          "description": "Deploy using AWS EC2.",
+          "code": "aws ec2 start-instance",
+          "output": "Instance running"
+        },
+        {
+          "title": "Docker Container",
+          "description": "Create docker container.",
+          "code": "docker run -it node",
+          "output": "Container started"
+        }
+      ]
+    }
+  ]
+}
