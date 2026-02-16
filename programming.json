@@ -1,73 +1,219 @@
 {
-  "semesters": {
-    "1": {
-      "subjects": ["C Programming", "Maths"],
+  "semesters": [
+    {
+      "id": "1",
+      "title": "Foundations",
+      "subjects": ["C Programming", "Digital Electronics"],
       "problems": {
         "C Programming": [
           {
-            "title": "Hello World",
-            "code": "#include<stdio.h>\nint main(){\n printf(\"Hello World\");\n return 0; }",
+            "title": "Print Hello World",
+            "description": "Write a C program to print Hello World.",
+            "code": "#include<stdio.h>\nint main(){\n printf(\"Hello World\");\n return 0;\n}",
             "output": "Hello World"
           },
           {
-            "title": "Sum of Two Numbers",
-            "code": "#include<stdio.h>\nint main(){ int a=5,b=3; printf(\"%d\",a+b); return 0; }",
-            "output": "8"
-          }
-        ],
-        "Maths": [
-          {
-            "title": "Factorial",
-            "code": "#include<stdio.h>\nint main(){ int n=5,f=1; for(int i=1;i<=n;i++) f*=i; printf(\"%d\",f); return 0; }",
+            "title": "Find Factorial",
+            "description": "Calculate factorial of a number using loop.",
+            "code": "#include<stdio.h>\nint main(){\n int n=5,f=1;\n for(int i=1;i<=n;i++) f*=i;\n printf(\"%d\",f);\n return 0;\n}",
             "output": "120"
           }
-        ]
-      }
-    },
-
-    "2": {
-      "subjects": ["C++"],
-      "problems": {
-        "C++": [
+        ],
+        "Digital Electronics": [
           {
-            "title": "OOP Example",
-            "code": "#include<iostream>\nusing namespace std;\nclass Test{ public: void show(){ cout<<\"Hello\"; } }; int main(){ Test t; t.show(); return 0; }",
-            "output": "Hello"
+            "title": "AND Gate Truth Table",
+            "description": "Display truth table of AND gate.",
+            "code": "A B | Output\n0 0 | 0\n0 1 | 0\n1 0 | 0\n1 1 | 1",
+            "output": "Truth table displayed"
+          },
+          {
+            "title": "OR Gate Truth Table",
+            "description": "Display truth table of OR gate.",
+            "code": "A B | Output\n0 0 | 0\n0 1 | 1\n1 0 | 1\n1 1 | 1",
+            "output": "Truth table displayed"
           }
         ]
       }
     },
 
-    "3": {
-      "subjects": ["digital Electronics"],
+    {
+      "id": "2",
+      "title": "Logic Building",
+      "subjects": ["Data Structures", "C++ Programming"],
       "problems": {
-        "digital Electronics": [
+        "Data Structures": [
           {
-            "title": "AND Gate",
-            "code": "#include<iostream>\nusing namespace std;\nclass Test{ public: void show(){ cout<<\"Hello\"; } }; int main(){ Test t; t.show(); return 0; }",
+            "title": "Stack Implementation",
+            "description": "Implement stack using array.",
+            "code": "// Stack using array in C++\n#include<iostream>\nusing namespace std;\nint stack[5], top=-1;",
+            "output": "Stack operations successful"
+          },
+          {
+            "title": "Queue Implementation",
+            "description": "Implement queue using array.",
+            "code": "// Queue using array in C++\n#include<iostream>\nusing namespace std;",
+            "output": "Queue operations successful"
+          }
+        ],
+        "C++ Programming": [
+          {
+            "title": "Class and Object",
+            "description": "Create a class and object example.",
+            "code": "#include<iostream>\nusing namespace std;\nclass Demo{public: void show(){cout<<\"Hello\";}};",
             "output": "Hello"
+          },
+          {
+            "title": "Constructor Example",
+            "description": "Demonstrate constructor in C++.",
+            "code": "class Demo{ public: Demo(){ cout<<\"Constructor\"; } };",
+            "output": "Constructor"
           }
         ]
       }
-    }, 
+    },
 
-"4": {
-      "subjects": ["Database Management System"],
+    {
+      "id": "3",
+      "title": "System Design",
+      "subjects": ["Java Programming", "Database (SQL)"],
       "problems": {
-        "Database Management System": [
+        "Java Programming": [
           {
-            "title": "SQL query",
-            "code": "#include<iostream>\nusing namespace std;\nclass Test{ public: void show(){ cout<<\"Hello\"; } }; int main(){ Test t; t.show(); return 0; }",
-            "output": "Hello"
+            "title": "Hello Java",
+            "description": "Basic Java program.",
+            "code": "class Main{\n public static void main(String[] args){\n  System.out.println(\"Hello Java\");\n }\n}",
+            "output": "Hello Java"
+          },
+          {
+            "title": "Inheritance Example",
+            "description": "Demonstrate inheritance in Java.",
+            "code": "class A{void show(){System.out.println(\"Parent\");}} class B extends A{}",
+            "output": "Parent"
+          }
+        ],
+        "Database (SQL)": [
+          {
+            "title": "Create Table",
+            "description": "SQL query to create table.",
+            "code": "CREATE TABLE students(id INT, name VARCHAR(50));",
+            "output": "Table created"
+          },
+          {
+            "title": "Select Query",
+            "description": "Retrieve all records.",
+            "code": "SELECT * FROM students;",
+            "output": "Records displayed"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "4",
+      "title": "Web & Enterprise",
+      "subjects": ["Python", "Web Technologies"],
+      "problems": {
+        "Python": [
+          {
+            "title": "Print in Python",
+            "description": "Basic print statement.",
+            "code": "print('Hello Python')",
+            "output": "Hello Python"
+          },
+          {
+            "title": "Check Even or Odd",
+            "description": "Check if number is even or odd.",
+            "code": "n=4\nif n%2==0:\n print('Even')\nelse:\n print('Odd')",
+            "output": "Even"
+          }
+        ],
+        "Web Technologies": [
+          {
+            "title": "Basic HTML Page",
+            "description": "Create simple HTML structure.",
+            "code": "<html><body><h1>Hello</h1></body></html>",
+            "output": "Displays Hello"
+          },
+          {
+            "title": "CSS Styling",
+            "description": "Apply CSS style.",
+            "code": "h1 { color: blue; }",
+            "output": "Text turns blue"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "5",
+      "title": "Specialization",
+      "subjects": ["AI & ML", "Cloud Computing"],
+      "problems": {
+        "AI & ML": [
+          {
+            "title": "Linear Regression Formula",
+            "description": "Implement basic regression formula.",
+            "code": "y = m*x + c",
+            "output": "Predicted value"
+          },
+          {
+            "title": "Decision Tree Concept",
+            "description": "Explain decision tree.",
+            "code": "// Decision Tree splits data based on features",
+            "output": "Tree generated"
+          }
+        ],
+        "Cloud Computing": [
+          {
+            "title": "Deploy App on AWS",
+            "description": "Steps to deploy app.",
+            "code": "aws ec2 run-instances ...",
+            "output": "Instance launched"
+          },
+          {
+            "title": "Docker Container",
+            "description": "Run container.",
+            "code": "docker run -p 80:80 nginx",
+            "output": "Container running"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "6",
+      "title": "Final Frontier",
+      "subjects": ["Full Stack Development", "Mobile App Development"],
+      "problems": {
+        "Full Stack Development": [
+          {
+            "title": "REST API Setup",
+            "description": "Create simple Express API.",
+            "code": "const express = require('express'); const app = express();",
+            "output": "Server running"
+          },
+          {
+            "title": "Connect Frontend to Backend",
+            "description": "Fetch API example.",
+            "code": "fetch('/api/data').then(res=>res.json());",
+            "output": "Data received"
+          }
+        ],
+        "Mobile App Development": [
+          {
+            "title": "React Native Button",
+            "description": "Create simple button.",
+            "code": "<Button title='Click Me' />",
+            "output": "Button rendered"
+          },
+          {
+            "title": "Navigation Example",
+            "description": "Navigate between screens.",
+            "code": "router.push('/home');",
+            "output": "Screen navigated"
           }
         ]
       }
     }
-
-
-
-
-
-    
-  }
+  ]
 }
