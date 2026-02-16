@@ -1,28 +1,46 @@
 {
   "notes": [
     {
-      "id": "1",
-      "title": "C Programming Notes",
-      "image": "https://picsum.photos/300/400?random=101",
-      "pdf": "https://example.com/c-notes.pdf"
+      "id": 1,
+      "title": "C Programming Basics - Unit 1",
+      "subject": "Programming",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
     },
     {
-      "id": "2",
-      "title": "Data Structures Notes",
-      "image": "https://picsum.photos/300/400?random=102",
-      "pdf": "https://example.com/ds-notes.pdf"
+      "id": 2,
+      "title": "Object Oriented Programming Concepts",
+      "subject": "OOPS",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1581091215367-59ab6f89c2f8"
     },
     {
-      "id": "3",
-      "title": "DBMS Notes",
-      "image": "https://picsum.photos/300/400?random=103",
-      "pdf": "https://example.com/dbms-notes.pdf"
+      "id": 3,
+      "title": "Database Management System - Unit 2",
+      "subject": "Database",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
     },
     {
-      "id": "4",
-      "title": "Operating System Notes",
-      "image": "https://picsum.photos/300/400?random=104",
-      "pdf": "https://example.com/os-notes.pdf"
+      "id": 4,
+      "title": "Data Structures - Linked List & Stack",
+      "subject": "Data Structure",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd"
+    },
+    {
+      "id": 5,
+      "title": "Operating Systems - Process Management",
+      "subject": "Systems",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    },
+    {
+      "id": 6,
+      "title": "Discrete Mathematics - Set Theory",
+      "subject": "Maths",
+      "pdf": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb"
     }
   ]
 }
